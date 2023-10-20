@@ -17,12 +17,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/Screenshot%202023-10-20%20143359.png)
 
 
 
 ### Links
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://jenna-lab.github.io/Newsletter-sign-up-form-with-success-message/)
 
 
 ### Built with
