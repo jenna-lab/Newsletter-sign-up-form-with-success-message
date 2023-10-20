@@ -140,3 +140,70 @@ p{
     background-color: rgb(255, 98, 87, .2);
     color: hsl(4, 100%, 67%);
 }
+
+@media(min-width: 700px){
+    #sign-up-div{
+        width: 740px;
+        padding: .5rem .8rem .5rem 2rem;
+    }
+
+    .box{
+        border-radius: 20px;    
+    }
+
+    #illustration-div{
+        height: 500px;
+        width: 400px;
+        background-position: center;
+        background-image: url(assets/images/illustration-sign-up-desktop.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #sign-up-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;  
+    }
+}
+
+@media(max-width: 700px){
+    #sign-up-div{
+        width: 350px;
+        border-radius: 0 0 8px 8px;
+        display: flex;
+        flex-direction: column-reverse;  
+    }
+
+    h1{
+        font-size: 2.2rem;
+    }
+    
+    #form-div{
+        margin: 0 1.5rem 1.5rem 1.5rem;
+    }
+    
+    #form-div > p {
+        margin-bottom: 1.5rem;
+    }
+    
+    #illustration-div{
+        margin-bottom: 2rem;
+        height: 265px;
+        width: 350px;
+        background-position: center;
+        background-image: url(assets/images/illustration-sign-up-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #successfull-div{
+        height: 100vh;
+        border-radius: 0 0 8px 8px;
+    }
+
+    #dismiss-button{
+        position: relative; 
+        top: 280px;
+    }
+}
