@@ -3,15 +3,14 @@ const email = document.querySelector<HTMLInputElement>("#input-email");
 const errorSpan = document.querySelector<HTMLSpanElement>("#span-error");
 const signUp = document.querySelector<HTMLDivElement>("#sign-up-div");
 const successfull = document.querySelector<HTMLDivElement>("#successfull-div");
-const emailSpan = document.querySelector<HTMLSpanElement>(
-  "#email-address-span"
-);
+const emailSpan = document.querySelector<HTMLSpanElement>("#email-address-span");
+
+// 
 const dismissButton =
   document.querySelector<HTMLButtonElement>("#dismiss-button");
 
 if (
-  form && email && errorSpan && signUp && successfull && emailSpan && dismissButton
-) {
+  form && email && errorSpan && signUp && successfull && emailSpan && dismissButton) {
   form.addEventListener("submit", (e) => {
     e.preventDefault();
 
