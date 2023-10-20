@@ -13,8 +13,8 @@ body{
     justify-content: center;
     min-height: 100vh;
     background-color: hsl(235, 18%, 26%);
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .box{
@@ -22,39 +22,39 @@ body{
 }
 
 #form-div{
-    margin-right: 1.5rem;
+    margin-right: 24px;
     display: flex;
     flex-direction: column;
 }
 
 #form-div > p {
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 h1{
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
+    font-size: 40px;
+    margin-bottom: 32px;
     color: hsl(234, 29%, 20%);
 }
 
 p{
-    font-size: .95rem;
+    font-size: 15.2px;
     color: hsl(234, 29%, 20%);
 }
 
 #checked-items{
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .item{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: .8rem;
+    margin-bottom: 12.8px;
 }
 
 .item > img{
-    margin-right: .8rem;
+    margin-right: 12.8px;
     width: 18px;
 }
 
@@ -67,14 +67,14 @@ p{
 #span-error{
     display: block;
     font-family: Bold;
-    font-size: .8rem;
+    font-size: 12.8px;
     color: hsl(4, 100%, 67%);
 }
 
 #error > p{
     font-family: Bold;
-    margin-bottom: .2rem;
-    font-size: .8rem;
+    margin-bottom: 3.2px;
+    font-size: 12.8px;
 }
 
 .input-div{
@@ -87,8 +87,8 @@ p{
 #input-email{
     width: 100%;
     height: 45px;
-    padding-left: 1rem;
-    margin-bottom: 1rem;
+    padding-left: 16px;
+    margin-bottom: 16px;
     border: 1px solid hsl(231, 7%, 60%);
     border-radius: 5px;
     outline: none;
@@ -107,25 +107,25 @@ p{
 
 #successfull-div{
     display: none;
-    padding: 2rem;
+    padding: 32px;
     width: 360px;
 }
 
 #successfull-div > img{
     width: 30px;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 #ty-title{
     font-family: Bold;
-    line-height: 2.2rem;
-    font-size: 2rem;
-    margin-bottom: 1.2rem;
+    line-height: 35.2px;
+    font-size: 32px;
+    margin-bottom: 19.2px;
 }
 
 #ty-message{
-    font-size: .8rem;
-    margin-bottom: 1.2rem;
+    font-size: 12.8px;
+    margin-bottom: 19.2px;
 }
 
 #ty-message > span{
@@ -140,11 +140,15 @@ p{
     background-color: rgb(255, 98, 87, .2);
     color: hsl(4, 100%, 67%);
 }
-
+#error p{
+    /* font-family: bold; */
+    font-family: Roboto, sans-serif;
+     font-weight: 800;
+}
 @media(min-width: 700px){
     #sign-up-div{
         width: 740px;
-        padding: .5rem .8rem .5rem 2rem;
+        padding: 8px 12.8px 8px 32px;
     }
 
     .box{
@@ -176,19 +180,19 @@ p{
     }
 
     h1{
-        font-size: 2.2rem;
+        font-size: 35.2px;
     }
     
     #form-div{
-        margin: 0 1.5rem 1.5rem 1.5rem;
+        margin: 0 24px 24px 24px;
     }
     
     #form-div > p {
-        margin-bottom: 1.5rem;
+        margin-bottom: 24px;
     }
     
     #illustration-div{
-        margin-bottom: 2rem;
+        margin-bottom: 32px;
         height: 265px;
         width: 350px;
         background-position: center;
